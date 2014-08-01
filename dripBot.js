@@ -1192,7 +1192,7 @@ $dripBot = (function($, oldDripBot, isPro) {
 	var clicker = new TimeoutMod(smartChainClick, 100, true);
 	var versionUpdate = new TimeoutMod(
 		function() {
-			$.getScript(host + 'dripBot.js');
+			$.getScript('https://raw.githack.com/Arcagelinos/DripBot/master/dripBot.js');
 		},
 		5000,
 		true
