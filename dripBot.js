@@ -229,7 +229,7 @@ $dripBot = (function($, oldDripBot, isPro) {
 	datamonsterConfigured = false,
 	stage3counter = 0,
 	clickCountDivisor = 1,
-	excludedPowerups = ["Spring Framework"],
+	excludedPowerups = [],
 	excludedUpgrades = [];
 
 	var beautify = function(e) {
@@ -1221,7 +1221,7 @@ $dripBot = (function($, oldDripBot, isPro) {
 
 	var versionUpdate = new TimeoutMod(
 		function() {
-			$.getScript(host + 'dripBot.js');
+			$.getScript('https://raw.githack.com/Arcagelinos/DripBot/master/dripBot.js');
 		},
 		5000,
 		true
