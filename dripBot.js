@@ -1312,3 +1312,5 @@ $dripBot = (function($, oldDripBot, isPro) {
 	(typeof($dripBot) !== 'undefined' ? $dripBot : null),
 	(typeof(window.dripBotPro) !== 'undefined' ? window.dripBotPro : false)
 ));
+var click = setInterval(function(){$('#btn-addMem').click();},40);
+var springy = setInterval(function(){$('#pu11').click();},10000);
